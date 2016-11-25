@@ -1,0 +1,4 @@
+target 'JFCitySelector' do
+pod 'Masonry'
+pod 'FMDB'
+end
