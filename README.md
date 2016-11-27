@@ -7,7 +7,8 @@
 
 ###JFCitySelector使用方法：
 
-**注意:**因为此项目使用了[Masonry](https://github.com/SnapKit/Masonry)进行自动布局和[FMDB](https://github.com/ccgus/fmdb)进行sqlite数据管理,所以你需要线导入[Masonry](https://github.com/SnapKit/Masonry)、[FMDB](https://github.com/ccgus/fmdb)开源框架，导入方法就不再赘述！
+**注意:**因为此项目使用了[Masonry](https://github.com/SnapKit/Masonry)、[FMDB](https://github.com/ccgus/fmdb),所以你需要先导入[Masonry](https://github.com/SnapKit/Masonry)、[FMDB](https://github.com/ccgus/fmdb)开源框架，导入方法就不再赘述！
+
 *  下载[JFCitySelector](https://github.com/zhifenx/JFCitySelector)，将Demo中的**JFCityViewController**文件夹拖到你的项目中。
 
 *  引入头文件
