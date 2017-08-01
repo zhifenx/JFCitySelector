@@ -14,7 +14,7 @@
 
 #define KCURRENTCITYINFODEFAULTS [NSUserDefaults standardUserDefaults]
 
-@interface ViewController ()<JFLocationDelegate>
+@interface ViewController ()<JFLocationDelegate, JFCityViewControllerDelegate>
 
 /** 选择的结果*/
 @property (strong, nonatomic) IBOutlet UILabel *resultLabel;
@@ -35,7 +35,7 @@
 
 - (JFAreaDataManager *)manager {
     if (!_manager) {
-        _manager = [JFAreaDataManager shareManager];
+        _manager = [JFAreaDataManager shareInstance];
         [_manager areaSqliteDBData];
     }
     return _manager;
@@ -43,17 +43,17 @@
 
 - (IBAction)didClickedButtonEvent:(UIButton *)sender {
     JFCityViewController *cityViewController = [[JFCityViewController alloc] init];
+    cityViewController.delegate = self;
     cityViewController.title = @"城市";
-    __weak typeof(self) weakSelf = self;
-    [cityViewController choseCityBlock:^(NSString *cityName) {
-        weakSelf.resultLabel.text = cityName;
-    }];
-    
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:cityViewController];
     [self presentViewController:navigationController animated:YES completion:nil];
 }
-#pragma mark --- JFLocationDelegate
 
+- (void)cityName:(NSString *)name {
+    _resultLabel.text = name;
+}
+
+#pragma mark --- JFLocationDelegate
 //定位中...
 - (void)locating {
     NSLog(@"定位中...");

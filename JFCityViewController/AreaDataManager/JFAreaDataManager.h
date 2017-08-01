@@ -10,7 +10,7 @@
 
 @interface JFAreaDataManager : NSObject
 
-+ (JFAreaDataManager *)shareManager;
++ (JFAreaDataManager *)shareInstance;
 
 - (void)areaSqliteDBData;
 

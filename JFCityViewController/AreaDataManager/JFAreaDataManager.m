@@ -19,10 +19,9 @@
 @implementation JFAreaDataManager
 
 static JFAreaDataManager *manager = nil;
-
-+ (JFAreaDataManager *)shareManager {
-    static dispatch_once_t once;
-    dispatch_once(&once, ^{
++ (JFAreaDataManager *)shareInstance {
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
         manager = [[self alloc] init];
     });
     return manager;

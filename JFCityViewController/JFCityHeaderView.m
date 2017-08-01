@@ -107,13 +107,10 @@
     }else {
         sender.imageName = @"down_arrow_icon1";
     }
-    if (self.cityNameBlock) {
-        self.cityNameBlock(sender.selected);
+    if (self.delegate && [self.delegate respondsToSelector:@selector(cityNameWithSelected:)]) {
+        [self.delegate cityNameWithSelected:sender.selected];
     }
-}
 
-- (void)cityNameBlock:(JFCityHeaderViewBlock)block {
-    self.cityNameBlock = block;
 }
 
 #pragma mark --- UISearchBarDelegate
@@ -121,28 +118,27 @@
 //// searchBar开始编辑时调用
 - (void)searchBarTextDidBeginEditing:(UISearchBar *)searchBar {
     searchBar.showsCancelButton = YES;
-    if (self.beginSearchBlock) {
-        self.beginSearchBlock();
+    if (self.delegate && [self.delegate respondsToSelector:@selector(beginSearch)]) {
+        [self.delegate beginSearch];
     }
 }
 
 // searchBar文本改变时即调用
 - (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText {
     if (searchBar.text.length > 0) {
-        if (self.searchResultBlock) {
-            self.searchResultBlock(searchBar.text);
+        if (self.delegate && [self.delegate respondsToSelector:@selector(searchResult:)]) {
+            [self.delegate searchResult:searchText];
         }
+
     }
 }
 
 // 点击键盘搜索按钮时调用
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
-    
-//    if (searchBar.text.length > 0) {
-//        if (self.searchResultBlock) {
-//            self.searchResultBlock(searchBar.text);
-//        }
-//    }
+    if (self.delegate && [self.delegate respondsToSelector:@selector(searchResult:)]) {
+        [self.delegate searchResult:searchBar.text];
+    }
+
     NSLog(@"点击搜索按钮编辑的结果是%@",searchBar.text);
 }
 
@@ -156,22 +152,10 @@
     [_searchBar resignFirstResponder];
     _searchBar.showsCancelButton = NO;
     _searchBar.text = nil;
-    if (self.didSearchBlock) {
-        self.didSearchBlock();
+    if (self.delegate && [self.delegate respondsToSelector:@selector(endSearch)]) {
+        [self.delegate endSearch];
     }
-}
 
-#pragma mark --- JFCityHeaderViewSearchBlock
-- (void)beginSearchBlock:(JFCityHeaderViewSearchBlock)block {
-    self.beginSearchBlock = block;
-}
-
-- (void)didSearchBlock:(JFCityHeaderViewSearchBlock)block {
-    self.didSearchBlock = block;
-}
-
-- (void)searchResultBlock:(JFCityHeaderViewSearchResultBlock)block {
-    self.searchResultBlock = block;
 }
 
 @end

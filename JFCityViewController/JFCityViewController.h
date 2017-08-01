@@ -8,17 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-typedef void(^JFCityViewControllerBlock)(NSString *cityName);
+@protocol JFCityViewControllerDelegate <NSObject>
+
+- (void)cityName:(NSString *)name;
+
+@end
 
 @interface JFCityViewController : UIViewController
 
-@property (nonatomic, copy) JFCityViewControllerBlock choseCityBlock;
-
-/**
- 选择城市后的回调
-
- @param block 回调
- */
-- (void)choseCityBlock:(JFCityViewControllerBlock)block;
-
+@property (nonatomic, weak) id<JFCityViewControllerDelegate> delegate;
 @end

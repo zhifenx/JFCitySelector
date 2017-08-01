@@ -58,23 +58,16 @@ static NSString *ID = @"searchCell";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSDictionary *dataDic = _resultMutableArray[indexPath.row];
     if (![[dataDic valueForKey:@"city"] isEqualToString:@"抱歉"]) {
-        if (self.resultBlock) {
-            self.resultBlock(dataDic);
+        if (self.delegate && [self.delegate respondsToSelector:@selector(searchResults:)]) {
+            [self.delegate searchResults:dataDic];
         }
     }
 }
 
-- (void)resultBlock:(JFSearchViewChoseCityReultBlock)block {
-    self.resultBlock = block;
-}
-
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    if (self.touchViewBlock) {
-        self.touchViewBlock();
+    if (self.delegate && [self.delegate respondsToSelector:@selector(touchViewToExit)]) {
+        [self.delegate touchViewToExit];
     }
-}
 
-- (void)touchViewBlock:(JFSearchViewBlock)block {
-    self.touchViewBlock = block;
 }
 @end

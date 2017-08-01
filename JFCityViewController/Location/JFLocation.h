@@ -38,5 +38,5 @@
 
 @interface JFLocation : NSObject
 
-@property (nonatomic, strong) id<JFLocationDelegate> delegate;
+@property (nonatomic, weak) id<JFLocationDelegate> delegate;
 @end

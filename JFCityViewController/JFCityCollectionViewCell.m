@@ -28,7 +28,7 @@
         [self addSubview:label];
         self.label = label;
     }
-    return self;
+    return self;    
 }
 
 /// 设置collectionView cell的border
