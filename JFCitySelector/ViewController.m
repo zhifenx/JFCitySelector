@@ -49,6 +49,8 @@
     [self presentViewController:navigationController animated:YES completion:nil];
 }
 
+#pragma mark - JFCityViewControllerDelegate
+
 - (void)cityName:(NSString *)name {
     _resultLabel.text = name;
 }

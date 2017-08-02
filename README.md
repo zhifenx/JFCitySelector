@@ -15,19 +15,12 @@
 #import "JFCityViewController.h"
 ```
 
-*  实例化JFCityViewController
+*  实例化**JFCityViewController**
+*  遵循**JFCityViewControllerDelegate**
+*  实现代理方法
 
 ```
-    JFCityViewController *cityViewController = [[JFCityViewController alloc] init];
-    cityViewController.title = @"城市";
-    __weak typeof(self) weakSelf = self;
-    //  你选择城市后的回调，cityName即你选择的城市
-    [cityViewController choseCityBlock:^(NSString *cityName) {
-        weakSelf.resultLabel.text = cityName;
-    }];
-    //  给JFCityViewController添加一个导航控制器
-    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:cityViewController];
-    [self presentViewController:navigationController animated:YES completion:nil];
+- (void)cityName:(NSString *)name;
 ```
 
 *  修改Info.plist文件
