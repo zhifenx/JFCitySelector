@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'JFCitySelector'
-s.version          = '0.1.1'
+s.version          = '0.1.2'
 s.summary          = '城市选择器'
 
 s.description      = <<-DESC
@@ -15,5 +15,5 @@ s.source           = { :git => 'https://github.com/zhifenx/JFCitySelector.git', 
 s.platform     = :ios
 s.ios.deployment_target = '10.0'
 s.source_files = 'JFCitySelector/Classes/**/*'
-# s.resources = ['JFCitySelector/Assets/**/*']
+s.resources = ['JFCitySelector/Assets/JFCitySelector.bundle']
 end
