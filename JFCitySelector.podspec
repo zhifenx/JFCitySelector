@@ -15,4 +15,5 @@ s.source           = { :git => 'https://github.com/zhifenx/JFCitySelector.git', 
 s.platform     = :ios
 s.ios.deployment_target = '10.0'
 s.source_files = 'JFCitySelector/Classes/**/*'
+s.resources = ['JFCitySelector/Assets/**/*']
 end

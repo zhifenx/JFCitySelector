@@ -1,6 +1,0 @@
-framework module JFCitySelector {
-  umbrella header "JFCitySelector-umbrella.h"
-
-  export *
-  module * { export * }
-}
