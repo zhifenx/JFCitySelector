@@ -8,6 +8,7 @@
 
 #import "JFCSData.h"
 
+#import "JFCSFileManager.h"
 #import "YYModel/YYModel.h"
 
 #define JF_SINGLETON_IMP(_type_) + (_type_ *)shareInstance{\
@@ -40,9 +41,9 @@ JF_SINGLETON_IMP(JFCSData);
 }
 
 - (void)initData {
-    NSString *provincePlistPath = [[NSBundle mainBundle] pathForResource:@"provinces" ofType:@"plist"];
-    NSString *cityPlistPath = [[NSBundle mainBundle] pathForResource:@"cities" ofType:@"plist"];
-    NSString *areaPlistPath = [[NSBundle mainBundle] pathForResource:@"areas" ofType:@"plist"];
+    NSString *provincePlistPath = [[JFCSFileManager jFCitySelectorBundle] pathForResource:@"provinces" ofType:@"plist"];
+    NSString *cityPlistPath = [[JFCSFileManager jFCitySelectorBundle] pathForResource:@"cities" ofType:@"plist"];
+    NSString *areaPlistPath = [[JFCSFileManager jFCitySelectorBundle] pathForResource:@"areas" ofType:@"plist"];
     NSDictionary *provinceDic = [[NSDictionary alloc] initWithContentsOfFile:provincePlistPath];
     NSDictionary *cityDic = [[NSDictionary alloc] initWithContentsOfFile:cityPlistPath];
     NSDictionary *areaDic = [[NSDictionary alloc] initWithContentsOfFile:areaPlistPath];

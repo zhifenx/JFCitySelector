@@ -16,6 +16,7 @@
 #import "JFCSSearchTableViewController.h"
 #import "JFCSTopToolsTableViewCell.h"
 #import "JFCSTableViewHeaderView.h"
+#import "JFCSFileManager.h"
 
 
 #define JFWeakSelf(type)  __weak typeof(type) weak##type = type;
@@ -62,7 +63,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[[UIImage imageNamed:_config.leftBarButtonItemImageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStylePlain target:self action:@selector(leftBarButtonItemAction)];
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[[JFCSFileManager getImageWithName:_config.leftBarButtonItemImageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStylePlain target:self action:@selector(leftBarButtonItemAction)];
     
     if (_config.searchButton) {
         self.searchButton = _config.searchButton;
@@ -260,7 +261,7 @@
         [_searchButton setTitle:_config.searchButtonTitle forState:UIControlStateNormal];
         [_searchButton.titleLabel setFont:[UIFont systemFontOfSize:12.0]];
         [_searchButton setTitleColor:_config.searchButtonTitleColor forState:UIControlStateNormal];
-        [_searchButton setImage:[UIImage imageNamed:_config.searchButtonImageName] forState:UIControlStateNormal];
+        [_searchButton setImage:[JFCSFileManager getImageWithName:_config.searchButtonImageName] forState:UIControlStateNormal];
         [_searchButton setBackgroundColor:_config.searchButtonBackgroundColor];
         [_searchButton.layer setCornerRadius:30 / 2];
         [_searchButton addTarget:self action:@selector(searchButtonAction:) forControlEvents:UIControlEventTouchUpInside];

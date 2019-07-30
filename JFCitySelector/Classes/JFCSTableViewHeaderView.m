@@ -8,6 +8,8 @@
 
 #import "JFCSTableViewHeaderView.h"
 
+#import "JFCSFileManager.h"
+
 @implementation JFCSTableViewHeaderView
 
 - (instancetype)initWithFrame:(CGRect)frame {
@@ -18,7 +20,7 @@
         CGFloat buttonR = 16;
         CGFloat buttonX = frame.size.width - buttonW - buttonR;
         self.rightButton = [[UIButton alloc] initWithFrame:CGRectMake(buttonX, 0, buttonW, frame.size.height)];
-        [self.rightButton setImage:[UIImage imageNamed:@"jf_icon_down"] forState:UIControlStateNormal];
+        [self.rightButton setImage:[JFCSFileManager getImageWithName:@"jf_icon_down"] forState:UIControlStateNormal];
         [self.rightButton setTitle:@"切换区县" forState:UIControlStateNormal];
         [self.rightButton setImageEdgeInsets:UIEdgeInsetsMake(0, 0, 0, -buttonW - 20)];
         [self.rightButton setTitleEdgeInsets:UIEdgeInsetsMake(0, 0, 0, 10)];
@@ -47,9 +49,9 @@
 - (void)rightButtonAction:(UIButton *)sender {
     sender.selected = !sender.selected;
     if (sender.selected) {
-        [sender setImage:[UIImage imageNamed:@"jf_icon_up"] forState:UIControlStateNormal];
+        [sender setImage:[JFCSFileManager getImageWithName:@"jf_icon_up"] forState:UIControlStateNormal];
     }else {
-        [sender setImage:[UIImage imageNamed:@"jf_icon_down"] forState:UIControlStateNormal];
+        [sender setImage:[JFCSFileManager getImageWithName:@"jf_icon_down"] forState:UIControlStateNormal];
     }
     if (self.headerBlock) {
         self.headerBlock(sender.selected);
