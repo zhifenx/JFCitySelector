@@ -1,0 +1,6 @@
+framework module Pods_JFCitySelector_Tests {
+  umbrella header "Pods-JFCitySelector_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

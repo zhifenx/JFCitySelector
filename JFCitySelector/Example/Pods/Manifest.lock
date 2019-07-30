@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - JFCitySelector (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - JFCitySelector (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  JFCitySelector:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  JFCitySelector: e90c057a3ae9294dab3afd6d7a776f46e84ba5b7
+
+PODFILE CHECKSUM: 4bb6ec8453e64f78982f8b21fd25fceca7367cd9
+
+COCOAPODS: 1.7.4
