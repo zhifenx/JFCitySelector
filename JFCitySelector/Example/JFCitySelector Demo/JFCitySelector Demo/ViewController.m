@@ -68,9 +68,8 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     switch (indexPath.row) {
         case 0: {
-            self.config.isLowercaseString = YES;
-            
-            JFCSTableViewController *vc = [[JFCSTableViewController alloc] initWithConfiguration:self.config delegate:self];
+//            JFCSTableViewController *vc = [[JFCSTableViewController alloc] initWithConfiguration:self.config delegate:self];
+            JFCSTableViewController *vc = [[JFCSTableViewController alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
         }
             

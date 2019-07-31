@@ -60,6 +60,14 @@
     return self;
 }
 
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        _config = [[JFCSConfiguration alloc] init];
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
