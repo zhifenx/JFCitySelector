@@ -22,7 +22,7 @@ pod 'JFCitySelector'
 
 ## Author
 
-837856614@qq.com, zhifenx@pupupula.com
+zhifenx@pupupula.com
 
 ## License
 
