@@ -68,8 +68,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     switch (indexPath.row) {
         case 0: {
-//            JFCSTableViewController *vc = [[JFCSTableViewController alloc] initWithConfiguration:self.config delegate:self];
-            JFCSTableViewController *vc = [[JFCSTableViewController alloc] init];
+            JFCSTableViewController *vc = [[JFCSTableViewController alloc] initWithConfiguration:self.config delegate:self];
             [self.navigationController pushViewController:vc animated:YES];
         }
             
