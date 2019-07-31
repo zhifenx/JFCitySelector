@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>provinces</key>
+	<array>
+		<dict>
+			<key>code</key>
+			<integer>11</integer>
+			<key>firstLetter</key>
+			<string>B</string>
+			<key>name</key>
+			<string>北京市</string>
+			<key>pinyin</key>
+			<string>bei jing shi</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<integer>12</integer>
+			<key>firstLetter</key>
+			<string>T</string>
+			<key>name</key>
+			<string>天津市</string>
+			<key>pinyin</key>
+			<string>tian jin shi</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<integer>13</integer>
+			<key>firstLetter</key>
+			<string>H</string>
+			<key>name</key>
+			<string>河北省</string>
+			<key>pinyin</key>
+			<string>he bei sheng</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<integer>14</integer>
+			<key>firstLetter</key>
+			<string>S</string>
+			<key>name</key>
+			<string>山西省</string>
+			<key>pinyin</key>
+			<string>shan xi sheng</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<integer>15</integer>
+			<key>firstLetter</key>
+			<string>N</string>
+			<key>name</key>
+			<string>内蒙古自治区</string>
+			<key>pinyin</key>
+			<string>nei meng gu zi zhi qu</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<integer>21</integer>
+			<key>firstLetter</key>
+			<string>L</string>
+			<key>name</key>
+			<string>辽宁省</string>
+			<key>pinyin</key>
+			<string>liao ning sheng</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<integer>22</integer>
+			<key>firstLetter</key>
+			<string>J</string>
+			<key>name</key>
+			<string>吉林省</string>
+			<key>pinyin</key>
+			<string>ji lin sheng</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<integer>23</integer>
+			<key>firstLetter</key>
+			<string>H</string>
+			<key>name</key>
+			<string>黑龙江省</string>
+			<key>pinyin</key>
+			<string>hei long jiang sheng</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<integer>31</integer>
+			<key>firstLetter</key>
+			<string>S</string>
+			<key>name</key>
+			<string>上海市</string>
+			<key>pinyin</key>
+			<string>shang hai shi</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<integer>32</integer>
+			<key>firstLetter</key>
+			<string>J</string>
+			<key>name</key>
+			<string>江苏省</string>
+			<key>pinyin</key>
+			<string>jiang su sheng</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<integer>33</integer>
+			<key>firstLetter</key>
+			<string>Z</string>
+			<key>name</key>
+			<string>浙江省</string>
+			<key>pinyin</key>
+			<string>zhe jiang sheng</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<integer>34</integer>
+			<key>firstLetter</key>
+			<string>A</string>
+			<key>name</key>
+			<string>安徽省</string>
+			<key>pinyin</key>
+			<string>an hui sheng</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<integer>35</integer>
+			<key>firstLetter</key>
+			<string>F</string>
+			<key>name</key>
+			<string>福建省</string>
+			<key>pinyin</key>
+			<string>fu jian sheng</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<integer>36</integer>
+			<key>firstLetter</key>
+			<string>J</string>
+			<key>name</key>
+			<string>江西省</string>
+			<key>pinyin</key>
+			<string>jiang xi sheng</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<integer>37</integer>
+			<key>firstLetter</key>
+			<string>S</string>
+			<key>name</key>
+			<string>山东省</string>
+			<key>pinyin</key>
+			<string>shan dong sheng</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<integer>41</integer>
+			<key>firstLetter</key>
+			<string>H</string>
+			<key>name</key>
+			<string>河南省</string>
+			<key>pinyin</key>
+			<string>he nan sheng</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<integer>42</integer>
+			<key>firstLetter</key>
+			<string>H</string>
+			<key>name</key>
+			<string>湖北省</string>
+			<key>pinyin</key>
+			<string>hu bei sheng</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<integer>43</integer>
+			<key>firstLetter</key>
+			<string>H</string>
+			<key>name</key>
+			<string>湖南省</string>
+			<key>pinyin</key>
+			<string>hu nan sheng</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<integer>44</integer>
+			<key>firstLetter</key>
+			<string>G</string>
+			<key>name</key>
+			<string>广东省</string>
+			<key>pinyin</key>
+			<string>guang dong sheng</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<integer>45</integer>
+			<key>firstLetter</key>
+			<string>G</string>
+			<key>name</key>
+			<string>广西壮族自治区</string>
+			<key>pinyin</key>
+			<string>guang xi zhuang zu zi zhi qu</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<integer>46</integer>
+			<key>firstLetter</key>
+			<string>H</string>
+			<key>name</key>
+			<string>海南省</string>
+			<key>pinyin</key>
+			<string>hai nan sheng</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<integer>50</integer>
+			<key>firstLetter</key>
+			<string>C</string>
+			<key>name</key>
+			<string>重庆市</string>
+			<key>pinyin</key>
+			<string>chong qing shi</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<integer>51</integer>
+			<key>firstLetter</key>
+			<string>S</string>
+			<key>name</key>
+			<string>四川省</string>
+			<key>pinyin</key>
+			<string>si chuan sheng</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<integer>52</integer>
+			<key>firstLetter</key>
+			<string>G</string>
+			<key>name</key>
+			<string>贵州省</string>
+			<key>pinyin</key>
+			<string>gui zhou sheng</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<integer>53</integer>
+			<key>firstLetter</key>
+			<string>Y</string>
+			<key>name</key>
+			<string>云南省</string>
+			<key>pinyin</key>
+			<string>yun nan sheng</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<integer>54</integer>
+			<key>firstLetter</key>
+			<string>X</string>
+			<key>name</key>
+			<string>西藏自治区</string>
+			<key>pinyin</key>
+			<string>xi cang zi zhi qu</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<integer>61</integer>
+			<key>firstLetter</key>
+			<string>S</string>
+			<key>name</key>
+			<string>陕西省</string>
+			<key>pinyin</key>
+			<string>shan xi sheng</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<integer>62</integer>
+			<key>firstLetter</key>
+			<string>G</string>
+			<key>name</key>
+			<string>甘肃省</string>
+			<key>pinyin</key>
+			<string>gan su sheng</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<integer>63</integer>
+			<key>firstLetter</key>
+			<string>Q</string>
+			<key>name</key>
+			<string>青海省</string>
+			<key>pinyin</key>
+			<string>qing hai sheng</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<integer>64</integer>
+			<key>firstLetter</key>
+			<string>N</string>
+			<key>name</key>
+			<string>宁夏回族自治区</string>
+			<key>pinyin</key>
+			<string>ning xia hui zu zi zhi qu</string>
+		</dict>
+		<dict>
+			<key>code</key>
+			<integer>65</integer>
+			<key>firstLetter</key>
+			<string>X</string>
+			<key>name</key>
+			<string>新疆维吾尔自治区（省级）</string>
+			<key>pinyin</key>
+			<string>xin jiang wei wu er zi zhi qu</string>
+		</dict>
+	</array>
+</dict>
+</plist>
