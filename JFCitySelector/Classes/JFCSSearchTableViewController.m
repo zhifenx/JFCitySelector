@@ -11,6 +11,7 @@
 #import "JFCSBaseInfoModel.h"
 #import "JFCSConfiguration.h"
 #import "JFCSDataOpreation.h"
+#import "JFCSFileManager.h"
 
 #define JFWeakSelf(type)  __weak typeof(type) weak##type = type;
 #define JFStrongSelf(type)  __strong typeof(type) type = weak##type;
@@ -118,7 +119,7 @@
         _searchTextField = [[UITextField alloc] initWithFrame:CGRectMake(0, 0, w, _searchBarBackgroundViewH)];
         _searchTextField.placeholder = _config.searchButtonTitle;
         _searchTextField.font = _config.searchControllerCancelButtonTitleFont;
-        UIImageView *leftImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:_config.searchButtonImageName]];
+        UIImageView *leftImageView = [[UIImageView alloc] initWithImage:[JFCSFileManager getImageWithName:_config.searchButtonImageName]];
         CGFloat leftImageViewH = 18;
         CGFloat leftImageViewY = (_searchBarBackgroundViewH - leftImageViewH) / 2;
         leftImageView.frame = CGRectMake(5, leftImageViewY, leftImageViewH, leftImageViewH);
