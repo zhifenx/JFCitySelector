@@ -1,6 +1,0 @@
-framework module Pods_jfcityselector {
-  umbrella header "Pods-jfcityselector-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,8 +1,8 @@
 //
 //  ViewController.m
-//  jfcityselector
+//  JFCitySelector Demo
 //
-//  Created by zhifenx on 2019/7/10.
+//  Created by zhifenx on 2019/7/31.
 //  Copyright © 2019 zhifenx. All rights reserved.
 //
 
@@ -36,7 +36,7 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {    
+- (void)viewDidLoad {
     [super viewDidLoad];
     
     self.config = [[JFCSConfiguration alloc] init];
@@ -154,5 +154,6 @@
 - (void)viewController:(JFCSTableViewController *)viewController didSelectCity:(JFCSBaseInfoModel *)model {
     self.textView.text = [NSString stringWithFormat:@"%@",[model yy_modelDescription]];
 }
+
 
 @end

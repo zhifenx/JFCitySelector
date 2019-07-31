@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E3CA6BC22F1834E008893BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3CA6BB22F1834E008893BF /* AppDelegate.m */; };
+		1E3CA6BF22F1834E008893BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3CA6BE22F1834E008893BF /* ViewController.m */; };
+		1E3CA6C222F1834E008893BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E3CA6C022F1834E008893BF /* Main.storyboard */; };
+		1E3CA6C422F1834E008893BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E3CA6C322F1834E008893BF /* Assets.xcassets */; };
+		1E3CA6C722F1834E008893BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E3CA6C522F1834E008893BF /* LaunchScreen.storyboard */; };
+		1E3CA6CA22F1834E008893BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3CA6C922F1834E008893BF /* main.m */; };
+		1E3CA6F422F18372008893BF /* JFCitySelector.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1E3CA6D122F18372008893BF /* JFCitySelector.bundle */; };
+		1E3CA6F522F18372008893BF /* JFCSBaseInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3CA6D422F18372008893BF /* JFCSBaseInfoModel.m */; };
+		1E3CA6F622F18372008893BF /* JFCSCityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3CA6D522F18372008893BF /* JFCSCityModel.m */; };
+		1E3CA6F722F18372008893BF /* JFCSFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3CA6D922F18372008893BF /* JFCSFileManager.m */; };
+		1E3CA6F822F18372008893BF /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 1E3CA6DB22F18372008893BF /* .gitkeep */; };
+		1E3CA6F922F18372008893BF /* JFCSTopToolsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3CA6DC22F18372008893BF /* JFCSTopToolsTableViewCell.m */; };
+		1E3CA6FA22F18372008893BF /* JFCSTableViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3CA6DD22F18372008893BF /* JFCSTableViewHeaderView.m */; };
+		1E3CA6FB22F18372008893BF /* JFCSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3CA6DE22F18372008893BF /* JFCSTableViewController.m */; };
+		1E3CA6FC22F18372008893BF /* JFCSPopularCitiesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3CA6DF22F18372008893BF /* JFCSPopularCitiesModel.m */; };
+		1E3CA6FD22F18372008893BF /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3CA6E422F18372008893BF /* NSObject+YYModel.m */; };
+		1E3CA6FE22F18372008893BF /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3CA6E522F18372008893BF /* YYClassInfo.m */; };
+		1E3CA6FF22F18372008893BF /* JFCSConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3CA6E922F18372008893BF /* JFCSConfiguration.m */; };
+		1E3CA70022F18372008893BF /* JFCSProvinceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3CA6EA22F18372008893BF /* JFCSProvinceModel.m */; };
+		1E3CA70122F18372008893BF /* JFCSAreaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3CA6EB22F18372008893BF /* JFCSAreaModel.m */; };
+		1E3CA70222F18372008893BF /* JFCSSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3CA6EE22F18372008893BF /* JFCSSearchTableViewController.m */; };
+		1E3CA70322F18372008893BF /* JFCSDataOpreation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3CA6EF22F18372008893BF /* JFCSDataOpreation.m */; };
+		1E3CA70422F18372008893BF /* JFCSData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3CA6F022F18372008893BF /* JFCSData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E3CA6B722F1834E008893BF /* JFCitySelector Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JFCitySelector Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E3CA6BA22F1834E008893BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1E3CA6BB22F1834E008893BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1E3CA6BD22F1834E008893BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1E3CA6BE22F1834E008893BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1E3CA6C122F1834E008893BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E3CA6C322F1834E008893BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E3CA6C622F1834E008893BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E3CA6C822F1834E008893BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E3CA6C922F1834E008893BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E3CA6D122F18372008893BF /* JFCitySelector.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JFCitySelector.bundle; sourceTree = "<group>"; };
+		1E3CA6D322F18372008893BF /* JFCSConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCSConfiguration.h; sourceTree = "<group>"; };
+		1E3CA6D422F18372008893BF /* JFCSBaseInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCSBaseInfoModel.m; sourceTree = "<group>"; };
+		1E3CA6D522F18372008893BF /* JFCSCityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCSCityModel.m; sourceTree = "<group>"; };
+		1E3CA6D622F18372008893BF /* JFCSAreaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCSAreaModel.h; sourceTree = "<group>"; };
+		1E3CA6D722F18372008893BF /* JFCSProvinceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCSProvinceModel.h; sourceTree = "<group>"; };
+		1E3CA6D822F18372008893BF /* JFCSDataOpreation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCSDataOpreation.h; sourceTree = "<group>"; };
+		1E3CA6D922F18372008893BF /* JFCSFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCSFileManager.m; sourceTree = "<group>"; };
+		1E3CA6DA22F18372008893BF /* JFCSSearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCSSearchTableViewController.h; sourceTree = "<group>"; };
+		1E3CA6DB22F18372008893BF /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		1E3CA6DC22F18372008893BF /* JFCSTopToolsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCSTopToolsTableViewCell.m; sourceTree = "<group>"; };
+		1E3CA6DD22F18372008893BF /* JFCSTableViewHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCSTableViewHeaderView.m; sourceTree = "<group>"; };
+		1E3CA6DE22F18372008893BF /* JFCSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCSTableViewController.m; sourceTree = "<group>"; };
+		1E3CA6DF22F18372008893BF /* JFCSPopularCitiesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCSPopularCitiesModel.m; sourceTree = "<group>"; };
+		1E3CA6E022F18372008893BF /* JFCSData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCSData.h; sourceTree = "<group>"; };
+		1E3CA6E222F18372008893BF /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		1E3CA6E322F18372008893BF /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
+		1E3CA6E422F18372008893BF /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		1E3CA6E522F18372008893BF /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		1E3CA6E622F18372008893BF /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		1E3CA6E722F18372008893BF /* JFCSCityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCSCityModel.h; sourceTree = "<group>"; };
+		1E3CA6E822F18372008893BF /* JFCSBaseInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCSBaseInfoModel.h; sourceTree = "<group>"; };
+		1E3CA6E922F18372008893BF /* JFCSConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCSConfiguration.m; sourceTree = "<group>"; };
+		1E3CA6EA22F18372008893BF /* JFCSProvinceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCSProvinceModel.m; sourceTree = "<group>"; };
+		1E3CA6EB22F18372008893BF /* JFCSAreaModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCSAreaModel.m; sourceTree = "<group>"; };
+		1E3CA6EC22F18372008893BF /* JFCSTopToolsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCSTopToolsTableViewCell.h; sourceTree = "<group>"; };
+		1E3CA6ED22F18372008893BF /* JFCSFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCSFileManager.h; sourceTree = "<group>"; };
+		1E3CA6EE22F18372008893BF /* JFCSSearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCSSearchTableViewController.m; sourceTree = "<group>"; };
+		1E3CA6EF22F18372008893BF /* JFCSDataOpreation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCSDataOpreation.m; sourceTree = "<group>"; };
+		1E3CA6F022F18372008893BF /* JFCSData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCSData.m; sourceTree = "<group>"; };
+		1E3CA6F122F18372008893BF /* JFCSPopularCitiesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCSPopularCitiesModel.h; sourceTree = "<group>"; };
+		1E3CA6F222F18372008893BF /* JFCSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCSTableViewController.h; sourceTree = "<group>"; };
+		1E3CA6F322F18372008893BF /* JFCSTableViewHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCSTableViewHeaderView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E3CA6B422F1834E008893BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E3CA6AE22F1834E008893BF = {
+			isa = PBXGroup;
+			children = (
+				1E3CA6B922F1834E008893BF /* JFCitySelector Demo */,
+				1E3CA6B822F1834E008893BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E3CA6B822F1834E008893BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E3CA6B722F1834E008893BF /* JFCitySelector Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E3CA6B922F1834E008893BF /* JFCitySelector Demo */ = {
+			isa = PBXGroup;
+			children = (
+				1E3CA6D222F18372008893BF /* Classes */,
+				1E3CA6D022F18372008893BF /* Resources */,
+				1E3CA6BA22F1834E008893BF /* AppDelegate.h */,
+				1E3CA6BB22F1834E008893BF /* AppDelegate.m */,
+				1E3CA6BD22F1834E008893BF /* ViewController.h */,
+				1E3CA6BE22F1834E008893BF /* ViewController.m */,
+				1E3CA6C022F1834E008893BF /* Main.storyboard */,
+				1E3CA6C322F1834E008893BF /* Assets.xcassets */,
+				1E3CA6C522F1834E008893BF /* LaunchScreen.storyboard */,
+				1E3CA6C822F1834E008893BF /* Info.plist */,
+				1E3CA6C922F1834E008893BF /* main.m */,
+			);
+			path = "JFCitySelector Demo";
+			sourceTree = "<group>";
+		};
+		1E3CA6D022F18372008893BF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1E3CA6D122F18372008893BF /* JFCitySelector.bundle */,
+			);
+			name = Resources;
+			path = ../../../Resources;
+			sourceTree = "<group>";
+		};
+		1E3CA6D222F18372008893BF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1E3CA6D322F18372008893BF /* JFCSConfiguration.h */,
+				1E3CA6D422F18372008893BF /* JFCSBaseInfoModel.m */,
+				1E3CA6D522F18372008893BF /* JFCSCityModel.m */,
+				1E3CA6D622F18372008893BF /* JFCSAreaModel.h */,
+				1E3CA6D722F18372008893BF /* JFCSProvinceModel.h */,
+				1E3CA6D822F18372008893BF /* JFCSDataOpreation.h */,
+				1E3CA6D922F18372008893BF /* JFCSFileManager.m */,
+				1E3CA6DA22F18372008893BF /* JFCSSearchTableViewController.h */,
+				1E3CA6DB22F18372008893BF /* .gitkeep */,
+				1E3CA6DC22F18372008893BF /* JFCSTopToolsTableViewCell.m */,
+				1E3CA6DD22F18372008893BF /* JFCSTableViewHeaderView.m */,
+				1E3CA6DE22F18372008893BF /* JFCSTableViewController.m */,
+				1E3CA6DF22F18372008893BF /* JFCSPopularCitiesModel.m */,
+				1E3CA6E022F18372008893BF /* JFCSData.h */,
+				1E3CA6E122F18372008893BF /* YYModel */,
+				1E3CA6E722F18372008893BF /* JFCSCityModel.h */,
+				1E3CA6E822F18372008893BF /* JFCSBaseInfoModel.h */,
+				1E3CA6E922F18372008893BF /* JFCSConfiguration.m */,
+				1E3CA6EA22F18372008893BF /* JFCSProvinceModel.m */,
+				1E3CA6EB22F18372008893BF /* JFCSAreaModel.m */,
+				1E3CA6EC22F18372008893BF /* JFCSTopToolsTableViewCell.h */,
+				1E3CA6ED22F18372008893BF /* JFCSFileManager.h */,
+				1E3CA6EE22F18372008893BF /* JFCSSearchTableViewController.m */,
+				1E3CA6EF22F18372008893BF /* JFCSDataOpreation.m */,
+				1E3CA6F022F18372008893BF /* JFCSData.m */,
+				1E3CA6F122F18372008893BF /* JFCSPopularCitiesModel.h */,
+				1E3CA6F222F18372008893BF /* JFCSTableViewController.h */,
+				1E3CA6F322F18372008893BF /* JFCSTableViewHeaderView.h */,
+			);
+			name = Classes;
+			path = ../../../Classes;
+			sourceTree = "<group>";
+		};
+		1E3CA6E122F18372008893BF /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				1E3CA6E222F18372008893BF /* YYClassInfo.h */,
+				1E3CA6E322F18372008893BF /* YYModel.h */,
+				1E3CA6E422F18372008893BF /* NSObject+YYModel.m */,
+				1E3CA6E522F18372008893BF /* YYClassInfo.m */,
+				1E3CA6E622F18372008893BF /* NSObject+YYModel.h */,
+			);
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E3CA6B622F1834E008893BF /* JFCitySelector Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E3CA6CD22F1834E008893BF /* Build configuration list for PBXNativeTarget "JFCitySelector Demo" */;
+			buildPhases = (
+				1E3CA6B322F1834E008893BF /* Sources */,
+				1E3CA6B422F1834E008893BF /* Frameworks */,
+				1E3CA6B522F1834E008893BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JFCitySelector Demo";
+			productName = "JFCitySelector Demo";
+			productReference = 1E3CA6B722F1834E008893BF /* JFCitySelector Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E3CA6AF22F1834E008893BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = zhifenx;
+				TargetAttributes = {
+					1E3CA6B622F1834E008893BF = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1E3CA6B222F1834E008893BF /* Build configuration list for PBXProject "JFCitySelector Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E3CA6AE22F1834E008893BF;
+			productRefGroup = 1E3CA6B822F1834E008893BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E3CA6B622F1834E008893BF /* JFCitySelector Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E3CA6B522F1834E008893BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E3CA6C722F1834E008893BF /* LaunchScreen.storyboard in Resources */,
+				1E3CA6C422F1834E008893BF /* Assets.xcassets in Resources */,
+				1E3CA6F822F18372008893BF /* .gitkeep in Resources */,
+				1E3CA6C222F1834E008893BF /* Main.storyboard in Resources */,
+				1E3CA6F422F18372008893BF /* JFCitySelector.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E3CA6B322F1834E008893BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E3CA6F522F18372008893BF /* JFCSBaseInfoModel.m in Sources */,
+				1E3CA6FA22F18372008893BF /* JFCSTableViewHeaderView.m in Sources */,
+				1E3CA6BF22F1834E008893BF /* ViewController.m in Sources */,
+				1E3CA70022F18372008893BF /* JFCSProvinceModel.m in Sources */,
+				1E3CA6FB22F18372008893BF /* JFCSTableViewController.m in Sources */,
+				1E3CA6FE22F18372008893BF /* YYClassInfo.m in Sources */,
+				1E3CA6CA22F1834E008893BF /* main.m in Sources */,
+				1E3CA6FF22F18372008893BF /* JFCSConfiguration.m in Sources */,
+				1E3CA6F622F18372008893BF /* JFCSCityModel.m in Sources */,
+				1E3CA6FC22F18372008893BF /* JFCSPopularCitiesModel.m in Sources */,
+				1E3CA6BC22F1834E008893BF /* AppDelegate.m in Sources */,
+				1E3CA70122F18372008893BF /* JFCSAreaModel.m in Sources */,
+				1E3CA70322F18372008893BF /* JFCSDataOpreation.m in Sources */,
+				1E3CA6FD22F18372008893BF /* NSObject+YYModel.m in Sources */,
+				1E3CA70222F18372008893BF /* JFCSSearchTableViewController.m in Sources */,
+				1E3CA70422F18372008893BF /* JFCSData.m in Sources */,
+				1E3CA6F922F18372008893BF /* JFCSTopToolsTableViewCell.m in Sources */,
+				1E3CA6F722F18372008893BF /* JFCSFileManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1E3CA6C022F1834E008893BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E3CA6C122F1834E008893BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E3CA6C522F1834E008893BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E3CA6C622F1834E008893BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E3CA6CB22F1834E008893BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1E3CA6CC22F1834E008893BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E3CA6CE22F1834E008893BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJ55WSWQUD;
+				INFOPLIST_FILE = "JFCitySelector Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jf.JFCitySelector-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E3CA6CF22F1834E008893BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJ55WSWQUD;
+				INFOPLIST_FILE = "JFCitySelector Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jf.JFCitySelector-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E3CA6B222F1834E008893BF /* Build configuration list for PBXProject "JFCitySelector Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E3CA6CB22F1834E008893BF /* Debug */,
+				1E3CA6CC22F1834E008893BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E3CA6CD22F1834E008893BF /* Build configuration list for PBXNativeTarget "JFCitySelector Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E3CA6CE22F1834E008893BF /* Debug */,
+				1E3CA6CF22F1834E008893BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E3CA6AF22F1834E008893BF /* Project object */;
+}

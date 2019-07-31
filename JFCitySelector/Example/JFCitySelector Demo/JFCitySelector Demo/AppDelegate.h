@@ -1,8 +1,8 @@
 //
 //  AppDelegate.h
-//  jfcityselector
+//  JFCitySelector Demo
 //
-//  Created by zhifenx on 2019/7/10.
+//  Created by zhifenx on 2019/7/31.
 //  Copyright © 2019 zhifenx. All rights reserved.
 //
 
