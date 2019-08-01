@@ -37,7 +37,7 @@
 *  该项目最低支持iOS 10.0
 
 # 具体使用
-#####1、 使用已有的UI `JFCSTableViewController `
+##### 1、 使用已有的UI `JFCSTableViewController `
 *  遵循`JFCSTableViewControllerDelegate`，
 *  使用`initWithConfiguration: delegate:`初始化`JFCSTableViewController`;若直接使用 `init`初始化`JFCSTableViewController`,`JFCSConfiguration`则为默认配置。
 
@@ -70,7 +70,7 @@ return [NSMutableArray arrayWithObjects:bjModel, shModel, gzModel, szModel, hzMo
 }
 ```
 
-#####2、 使用`JFCSDataOpreation`提供的数据接口，自建UI。
+##### 2、 使用`JFCSDataOpreation`提供的数据接口，自建UI。
 *  使用`initWithConfiguration:`，传入`JFCSConfiguration`实例，初始化`JFCSDataOpreation`
 
 ```
@@ -86,7 +86,7 @@ JFCSDataOpreation *dataOpreation = [[JFCSDataOpreation alloc] initWithConfigurat
 //code...
 ```
 
-#####3、注意
+##### 3、注意
 *  `JFCSConfiguration `的属性`popularCitiesMutableArray `数组，元素必须是`JFCSPopularCitiesModel `类型；
 *  `JFCSPopularCitiesModel `初始化方法：`initWithName: type:`,传入的城市名称必须要和数据源内的name对应上，因为牵扯到城市名称所对应的code，所以在自定义城市前可以先打印所需城市的`JFCSBaseInfoModel `数据；type也必须是`JFCSPopularCitiesType`,分别为`JFCSPopularCitiesTypeProvince`（省级）、`JFCSPopularCitiesTypeCity`（市级）和`JFCSPopularCitiesTypeArea`（县级）。
 
