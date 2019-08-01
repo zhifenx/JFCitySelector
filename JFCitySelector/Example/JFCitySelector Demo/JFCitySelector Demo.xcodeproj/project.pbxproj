@@ -33,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E0E003022F2C27200E0E30F /* JFCitySelector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFCitySelector.h; sourceTree = "<group>"; };
 		1E3CA6B722F1834E008893BF /* JFCitySelector Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JFCitySelector Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E3CA6BA22F1834E008893BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1E3CA6BB22F1834E008893BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -163,6 +164,7 @@
 				1E3CA6EC22F18372008893BF /* JFCSTopToolsTableViewCell.h */,
 				1E3CA6DC22F18372008893BF /* JFCSTopToolsTableViewCell.m */,
 				1E3CA6E122F18372008893BF /* YYModel */,
+				1E0E003022F2C27200E0E30F /* JFCitySelector.h */,
 			);
 			name = Classes;
 			path = ../../../Classes;

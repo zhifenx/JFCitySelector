@@ -8,11 +8,7 @@
 
 #import "ViewController.h"
 
-#import "JFCSTableViewController.h"
-#import "JFCSConfiguration.h"
-#import "JFCSBaseInfoModel.h"
-#import "JFCSDataOpreation.h"
-#import "YYModel.h"
+#import "JFCitySelector.h"
 
 //  自定义Log
 #ifdef RELEASE
@@ -42,7 +38,7 @@
     self.config = [[JFCSConfiguration alloc] init];
     self.dataOpreation = [[JFCSDataOpreation alloc] initWithConfiguration:self.config];
     
-    self.title = @"JFCSelector";
+    self.title = @"JFCitySelector";
     self.dataArr = @[@"JFCSTableViewController",
                      @"省份数据",
                      @"市数据",
