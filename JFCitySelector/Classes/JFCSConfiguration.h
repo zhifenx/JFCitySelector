@@ -19,7 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface JFCSConfiguration : NSObject
 
 /**
- 拼音模糊搜索，默认 YES
+ 是否可以拼音搜索，默认 YES
  */
 @property (nonatomic, assign) BOOL isPinyinSearch;
 
