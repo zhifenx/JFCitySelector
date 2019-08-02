@@ -17,7 +17,7 @@
 #import "JFCSBaseInfoModel.h"
 #import "JFCSDataOpreation.h"
 #import "JFCSPopularCitiesModel.h"
-#import "YYModel.h"
+#import <YYModel/YYModel.h>
 
 
 #endif /* JFCitySelector_h */

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -22,14 +22,13 @@
 		1E3CA6FA22F18372008893BF /* JFCSTableViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3CA6DD22F18372008893BF /* JFCSTableViewHeaderView.m */; };
 		1E3CA6FB22F18372008893BF /* JFCSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3CA6DE22F18372008893BF /* JFCSTableViewController.m */; };
 		1E3CA6FC22F18372008893BF /* JFCSPopularCitiesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3CA6DF22F18372008893BF /* JFCSPopularCitiesModel.m */; };
-		1E3CA6FD22F18372008893BF /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3CA6E422F18372008893BF /* NSObject+YYModel.m */; };
-		1E3CA6FE22F18372008893BF /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3CA6E522F18372008893BF /* YYClassInfo.m */; };
 		1E3CA6FF22F18372008893BF /* JFCSConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3CA6E922F18372008893BF /* JFCSConfiguration.m */; };
 		1E3CA70022F18372008893BF /* JFCSProvinceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3CA6EA22F18372008893BF /* JFCSProvinceModel.m */; };
 		1E3CA70122F18372008893BF /* JFCSAreaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3CA6EB22F18372008893BF /* JFCSAreaModel.m */; };
 		1E3CA70222F18372008893BF /* JFCSSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3CA6EE22F18372008893BF /* JFCSSearchTableViewController.m */; };
 		1E3CA70322F18372008893BF /* JFCSDataOpreation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3CA6EF22F18372008893BF /* JFCSDataOpreation.m */; };
 		1E3CA70422F18372008893BF /* JFCSData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3CA6F022F18372008893BF /* JFCSData.m */; };
+		DEB1BB3DAF2C32B471936922 /* Pods_JFCitySelector_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4904F847039BB610842E1BD2 /* Pods_JFCitySelector_Demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,11 +58,6 @@
 		1E3CA6DE22F18372008893BF /* JFCSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCSTableViewController.m; sourceTree = "<group>"; };
 		1E3CA6DF22F18372008893BF /* JFCSPopularCitiesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCSPopularCitiesModel.m; sourceTree = "<group>"; };
 		1E3CA6E022F18372008893BF /* JFCSData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCSData.h; sourceTree = "<group>"; };
-		1E3CA6E222F18372008893BF /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
-		1E3CA6E322F18372008893BF /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
-		1E3CA6E422F18372008893BF /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
-		1E3CA6E522F18372008893BF /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
-		1E3CA6E622F18372008893BF /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
 		1E3CA6E722F18372008893BF /* JFCSCityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCSCityModel.h; sourceTree = "<group>"; };
 		1E3CA6E822F18372008893BF /* JFCSBaseInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCSBaseInfoModel.h; sourceTree = "<group>"; };
 		1E3CA6E922F18372008893BF /* JFCSConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCSConfiguration.m; sourceTree = "<group>"; };
@@ -77,6 +71,9 @@
 		1E3CA6F122F18372008893BF /* JFCSPopularCitiesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCSPopularCitiesModel.h; sourceTree = "<group>"; };
 		1E3CA6F222F18372008893BF /* JFCSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCSTableViewController.h; sourceTree = "<group>"; };
 		1E3CA6F322F18372008893BF /* JFCSTableViewHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCSTableViewHeaderView.h; sourceTree = "<group>"; };
+		4904F847039BB610842E1BD2 /* Pods_JFCitySelector_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JFCitySelector_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE3D4EF771DDA414C932F83 /* Pods-JFCitySelector Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFCitySelector Demo.debug.xcconfig"; path = "Target Support Files/Pods-JFCitySelector Demo/Pods-JFCitySelector Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		EA4FC451CC07FC74FB2CBBE0 /* Pods-JFCitySelector Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFCitySelector Demo.release.xcconfig"; path = "Target Support Files/Pods-JFCitySelector Demo/Pods-JFCitySelector Demo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEB1BB3DAF2C32B471936922 /* Pods_JFCitySelector_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +93,8 @@
 			children = (
 				1E3CA6B922F1834E008893BF /* JFCitySelector Demo */,
 				1E3CA6B822F1834E008893BF /* Products */,
+				BAF4922E613148AB473629F8 /* Pods */,
+				E33E2B460FBC5AE7BDC83D1C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -163,23 +163,27 @@
 				1E3CA6DD22F18372008893BF /* JFCSTableViewHeaderView.m */,
 				1E3CA6EC22F18372008893BF /* JFCSTopToolsTableViewCell.h */,
 				1E3CA6DC22F18372008893BF /* JFCSTopToolsTableViewCell.m */,
-				1E3CA6E122F18372008893BF /* YYModel */,
 				1E0E003022F2C27200E0E30F /* JFCitySelector.h */,
 			);
 			name = Classes;
 			path = ../../../Classes;
 			sourceTree = "<group>";
 		};
-		1E3CA6E122F18372008893BF /* YYModel */ = {
+		BAF4922E613148AB473629F8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1E3CA6E222F18372008893BF /* YYClassInfo.h */,
-				1E3CA6E322F18372008893BF /* YYModel.h */,
-				1E3CA6E422F18372008893BF /* NSObject+YYModel.m */,
-				1E3CA6E522F18372008893BF /* YYClassInfo.m */,
-				1E3CA6E622F18372008893BF /* NSObject+YYModel.h */,
+				BFE3D4EF771DDA414C932F83 /* Pods-JFCitySelector Demo.debug.xcconfig */,
+				EA4FC451CC07FC74FB2CBBE0 /* Pods-JFCitySelector Demo.release.xcconfig */,
 			);
-			path = YYModel;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E33E2B460FBC5AE7BDC83D1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4904F847039BB610842E1BD2 /* Pods_JFCitySelector_Demo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,9 +193,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E3CA6CD22F1834E008893BF /* Build configuration list for PBXNativeTarget "JFCitySelector Demo" */;
 			buildPhases = (
+				E51500857FCE0E7117F1FA24 /* [CP] Check Pods Manifest.lock */,
 				1E3CA6B322F1834E008893BF /* Sources */,
 				1E3CA6B422F1834E008893BF /* Frameworks */,
 				1E3CA6B522F1834E008893BF /* Resources */,
+				97DC44D0F6F63FD84BE9AF53 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -249,6 +255,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		97DC44D0F6F63FD84BE9AF53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JFCitySelector Demo/Pods-JFCitySelector Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JFCitySelector Demo/Pods-JFCitySelector Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JFCitySelector Demo/Pods-JFCitySelector Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E51500857FCE0E7117F1FA24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JFCitySelector Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1E3CA6B322F1834E008893BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -259,7 +307,6 @@
 				1E3CA6BF22F1834E008893BF /* ViewController.m in Sources */,
 				1E3CA70022F18372008893BF /* JFCSProvinceModel.m in Sources */,
 				1E3CA6FB22F18372008893BF /* JFCSTableViewController.m in Sources */,
-				1E3CA6FE22F18372008893BF /* YYClassInfo.m in Sources */,
 				1E3CA6CA22F1834E008893BF /* main.m in Sources */,
 				1E3CA6FF22F18372008893BF /* JFCSConfiguration.m in Sources */,
 				1E3CA6F622F18372008893BF /* JFCSCityModel.m in Sources */,
@@ -267,7 +314,6 @@
 				1E3CA6BC22F1834E008893BF /* AppDelegate.m in Sources */,
 				1E3CA70122F18372008893BF /* JFCSAreaModel.m in Sources */,
 				1E3CA70322F18372008893BF /* JFCSDataOpreation.m in Sources */,
-				1E3CA6FD22F18372008893BF /* NSObject+YYModel.m in Sources */,
 				1E3CA70222F18372008893BF /* JFCSSearchTableViewController.m in Sources */,
 				1E3CA70422F18372008893BF /* JFCSData.m in Sources */,
 				1E3CA6F922F18372008893BF /* JFCSTopToolsTableViewCell.m in Sources */,
@@ -411,6 +457,7 @@
 		};
 		1E3CA6CE22F1834E008893BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFE3D4EF771DDA414C932F83 /* Pods-JFCitySelector Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -428,6 +475,7 @@
 		};
 		1E3CA6CF22F1834E008893BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA4FC451CC07FC74FB2CBBE0 /* Pods-JFCitySelector Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

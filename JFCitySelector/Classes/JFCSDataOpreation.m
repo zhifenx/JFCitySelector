@@ -13,7 +13,7 @@
 #import "JFCSAreaModel.h"
 #import "JFCSData.h"
 #import "JFCSConfiguration.h"
-#import "YYModel/YYModel.h"
+#import <YYModel/YYModel.h>
 
 //  弱引用
 #define JFWeakSelf(type)  __weak typeof(type) weak##type = type;

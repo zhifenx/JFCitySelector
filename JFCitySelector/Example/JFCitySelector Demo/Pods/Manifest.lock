@@ -1,0 +1,16 @@
+PODS:
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - YYModel
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - YYModel
+
+SPEC CHECKSUMS:
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 263fcaa7a3531e9ff95ac72dfc19191fc44dc052
+
+COCOAPODS: 1.7.4

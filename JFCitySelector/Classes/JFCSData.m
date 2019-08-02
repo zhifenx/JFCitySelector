@@ -9,7 +9,7 @@
 #import "JFCSData.h"
 
 #import "JFCSFileManager.h"
-#import "YYModel/YYModel.h"
+#import <YYModel/YYModel.h>
 
 #define JF_SINGLETON_IMP(_type_) + (_type_ *)shareInstance{\
 static _type_ *theshareInstance = nil;\
