@@ -19,7 +19,7 @@
 ![屏幕快照 2019-08-01 下午2.20.22.png](https://upload-images.jianshu.io/upload_images/1707533-c326e7a4e8726dc1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 # 项目结构
-![项目结构.png]![](https://upload-images.jianshu.io/upload_images/1707533-0cf40b179c67442b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![项目结构.png](https://upload-images.jianshu.io/upload_images/1707533-0cf40b179c67442b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 # 安装
