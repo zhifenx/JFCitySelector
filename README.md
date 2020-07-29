@@ -34,7 +34,7 @@
 *  导入 JFCitySelector.h。
 
 #系统要求
-*  该项目最低支持iOS 10.0
+*  该项目最低支持iOS 8.0
 
 # 具体使用
 ##### 1、 使用已有的UI `JFCSTableViewController `
