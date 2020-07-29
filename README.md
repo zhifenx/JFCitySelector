@@ -33,7 +33,7 @@
 *  将 JFCitySelector 内的Classes、Resources文件夹添加(拖放)到你的工程。
 *  导入 JFCitySelector.h。
 
-#系统要求
+##### 系统要求
 *  该项目最低支持iOS 8.0
 
 # 具体使用

@@ -8,7 +8,7 @@
 			<key>code</key>
 			<integer>1101</integer>
 			<key>firstLetter</key>
-			<string>S</string>
+			<string>B</string>
 			<key>name</key>
 			<string>北京</string>
 			<key>pinyin</key>
@@ -20,7 +20,7 @@
 			<key>code</key>
 			<integer>1201</integer>
 			<key>firstLetter</key>
-			<string>S</string>
+			<string>T</string>
 			<key>name</key>
 			<string>天津</string>
 			<key>pinyin</key>
