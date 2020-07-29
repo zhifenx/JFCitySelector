@@ -200,7 +200,7 @@
 			<key>code</key>
 			<integer>1404</integer>
 			<key>firstLetter</key>
-			<string>Z</string>
+			<string>C</string>
 			<key>name</key>
 			<string>长治</string>
 			<key>pinyin</key>
@@ -208,7 +208,7 @@
 			<key>provinceCode</key>
 			<integer>14</integer>
 		</dict>
-		<dict>
+		<dict>C
 			<key>code</key>
 			<integer>1405</integer>
 			<key>firstLetter</key>
@@ -2192,7 +2192,7 @@
 			<key>code</key>
 			<integer>4301</integer>
 			<key>firstLetter</key>
-			<string>Z</string>
+			<string>C</string>
 			<key>name</key>
 			<string>长沙</string>
 			<key>pinyin</key>
