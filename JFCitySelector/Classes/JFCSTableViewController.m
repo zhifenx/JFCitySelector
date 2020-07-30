@@ -318,6 +318,7 @@
         [self selectCityCallBack:model];
     }];
     UINavigationController *nvi = [[UINavigationController alloc] initWithRootViewController:searchVC];
+    nvi.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:nvi animated:NO completion:nil];
 }
 
