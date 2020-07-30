@@ -19,6 +19,8 @@ typedef void(^headerViewBlock)(BOOL selected);
 
 @property (nonatomic, copy) headerViewBlock headerBlock;
 
+- (instancetype)initWithFrame:(CGRect)frame hideSwitchButton:(BOOL)hidden;
+
 - (void)updateCurrentCity:(NSString *)name;
 
 - (void)headerViewBlock:(headerViewBlock)blcok;

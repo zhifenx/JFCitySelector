@@ -12,7 +12,7 @@
 
 @implementation JFCSTableViewHeaderView
 
-- (instancetype)initWithFrame:(CGRect)frame {
+- (instancetype)initWithFrame:(CGRect)frame hideSwitchButton:(BOOL)hidden {
     self = [super initWithFrame:frame];
     if (self) {
         UIFont *font = [UIFont systemFontOfSize:13.0];
@@ -28,7 +28,7 @@
         [self.rightButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [self.rightButton addTarget:self action:@selector(rightButtonAction:) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:self.rightButton];
-        
+        [self.rightButton setHidden:hidden];
         CGFloat labelR = 5;
         CGFloat labelW = self.rightButton.frame.origin.x - labelR - buttonR;
         self.currentCityLabel = [[UILabel alloc] initWithFrame:CGRectMake(buttonR, 0, labelW, frame.size.height)];

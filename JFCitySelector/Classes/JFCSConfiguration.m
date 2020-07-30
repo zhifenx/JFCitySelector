@@ -17,8 +17,9 @@
     if (self) {
         _isPinyinSearch = YES;
         _isLowercaseString = NO;
-        _hiddenPopularCities = NO;
-        _hiddenHistoricalRecord = NO;
+        _hidePopularCities = NO;
+        _hideHistoricalRecord = NO;
+        _hideAreaSwitchButton = NO;
         _searchButtonBackgroundColor = [UIColor whiteColor];
         _searchButtonTitleColor = [UIColor colorWithRed:0.5 green:0.5 blue:0.5 alpha:1];
         _sectionIndexColor = [UIColor colorWithRed:0/255.0f green:132/255.0f blue:255/255.0f alpha:1];

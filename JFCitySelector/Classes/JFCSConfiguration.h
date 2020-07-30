@@ -31,17 +31,17 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  关闭热门城市，默认 NO
  */
-@property (nonatomic, assign) BOOL hiddenPopularCities;
+@property (nonatomic, assign) BOOL hidePopularCities;
 
 /**
  关闭最近访问 默认 NO
  */
-@property (nonatomic, assign) BOOL hiddenHistoricalRecord;
+@property (nonatomic, assign) BOOL hideHistoricalRecord;
 
 /**
  热门城市，默认 北京、上海、广州、深圳、杭州
  注意：1、name要和本地数据的一致；
-      2、type 省级传 JFCSPopularCitiesTypeProvince，市级传 JFCSPopularCitiesTypeCity，县级传 JFCSPopularCitiesTypeArea“
+ 2、type 省级传 JFCSPopularCitiesTypeProvince，市级传 JFCSPopularCitiesTypeCity，县级传 JFCSPopularCitiesTypeArea“
  */
 @property (nonatomic, strong) NSMutableArray <JFCSPopularCitiesModel *>*popularCitiesMutableArray;
 
@@ -80,12 +80,17 @@ NS_ASSUME_NONNULL_BEGIN
 #pragma mark - JFCSTableViewController 相关配置
 
 /**
+ 隐藏区域切换按钮 默认 NO
+ */
+@property (nonatomic, assign) BOOL hideAreaSwitchButton;
+
+/**
  JFCSTableViewController 顶部 title view 的button
  */
 @property (nonatomic, strong) UIButton *searchButton;
 
 /**
- JFCSTableViewController leftBarButtonItem icon 
+ JFCSTableViewController leftBarButtonItem icon
  */
 @property (nonatomic, copy) NSString *leftBarButtonItemImageName;
 
@@ -138,7 +143,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  统一计算cell的高度方法
-
+ 
  @param count 展示的城市个数
  @return cell高度
  */

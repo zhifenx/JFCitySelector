@@ -111,7 +111,7 @@
                 }
                 [_headerCitiesCell setupData:self.headerCitiesNameMutableArray];
                 return _headerCitiesCell;
-            } else if (!_config.hiddenPopularCities && _config.popularCitiesMutableArray.count > 0 && [self.sectionFirstLetterMutableArrary[indexPath.section] isEqualToString:_config.popularCitiesTitle]) {//热门城市
+            } else if (!_config.hidePopularCities && _config.popularCitiesMutableArray.count > 0 && [self.sectionFirstLetterMutableArrary[indexPath.section] isEqualToString:_config.popularCitiesTitle]) {//热门城市
                 if (!_popularCitiesCell) {
                     _popularCitiesCell = [[JFCSTopToolsTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"JFCSTopToolsTableViewCell"];
                     [_popularCitiesCell setupData:self.popularCitiesNameMutableArray];
@@ -123,7 +123,7 @@
                     }];
                 }
                 return _popularCitiesCell;
-            }else if (!_config.hiddenHistoricalRecord && self.historyRecordNameMutableArray.count > 0 && [self.sectionFirstLetterMutableArrary[indexPath.section] isEqualToString:_config.historicalRecordTitle]) {//最近访问
+            }else if (!_config.hideHistoricalRecord && self.historyRecordNameMutableArray.count > 0 && [self.sectionFirstLetterMutableArrary[indexPath.section] isEqualToString:_config.historicalRecordTitle]) {//最近访问
                 if (!_historyRecordCell) {
                     _historyRecordCell = [[JFCSTopToolsTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"JFCSTopToolsTableViewCell"];
                     [_historyRecordCell setSelectionStyle:UITableViewCellSelectionStyleNone];
@@ -168,11 +168,11 @@
     CGFloat height = 44;
     if (indexPath.section < self.dataMutableArray.count) {
         if (indexPath.row < [self.dataMutableArray[indexPath.section] count]) {
-            if (!_config.hiddenPopularCities && _config.popularCitiesMutableArray.count > 0 && [self.sectionFirstLetterMutableArrary[indexPath.section] isEqualToString:_config.popularCitiesTitle]) {//热门城市
+            if (!_config.hidePopularCities && _config.popularCitiesMutableArray.count > 0 && [self.sectionFirstLetterMutableArrary[indexPath.section] isEqualToString:_config.popularCitiesTitle]) {//热门城市
                height = _config.popularCitiesCellHeight;
             }
             
-            if (!_config.hiddenHistoricalRecord && self.historyRecordNameMutableArray.count > 0 && [self.sectionFirstLetterMutableArrary[indexPath.section] isEqualToString:_config.historicalRecordTitle]) {//最近访问
+            if (!_config.hideHistoricalRecord && self.historyRecordNameMutableArray.count > 0 && [self.sectionFirstLetterMutableArrary[indexPath.section] isEqualToString:_config.historicalRecordTitle]) {//最近访问
                 height = [self.config calculateCellHeightWithCount:self.historyRecordNameMutableArray.count];
             }
             
@@ -221,10 +221,10 @@
     self.dataMutableArray = [NSMutableArray arrayWithArray:[dataArr mutableCopy]];
     self.firstLetterMutableArrary = [self.dataOpreation.firstLetterArraryOfCityOrArea mutableCopy];
     self.sectionFirstLetterMutableArrary = [self.dataOpreation.firstLetterArraryOfCityOrArea mutableCopy];
-    if (!self.config.hiddenPopularCities && self.config.popularCitiesMutableArray.count > 0) {
+    if (!self.config.hidePopularCities && self.config.popularCitiesMutableArray.count > 0) {
         [self insertPopularCitiesCellData];
     }
-    if (!self.config.hiddenHistoricalRecord && [self.dataOpreation historyRecordCities].count > 0) {
+    if (!self.config.hideHistoricalRecord && [self.dataOpreation historyRecordCities].count > 0) {
         [self insertHistoricalRecordCellData];
     }
     [self.tableView reloadData];
@@ -279,7 +279,7 @@
 
 - (JFCSTableViewHeaderView *)headerView {
     if (!_headerView) {
-        _headerView = [[JFCSTableViewHeaderView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 40)];
+        _headerView = [[JFCSTableViewHeaderView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 40) hideSwitchButton:self.config.hideAreaSwitchButton];
         JFWeakSelf(self);
         [_headerView headerViewBlock:^(BOOL selected) {
             JFStrongSelf(self);
@@ -299,7 +299,7 @@
     self.currentCityModel = model;
     [self.dataOpreation cacheCurrentCity:model];
     [self.headerView updateCurrentCity:model.alias ? : model.name];
-    if (!_config.hiddenHistoricalRecord) {
+    if (!_config.hideHistoricalRecord) {
         [self.dataOpreation insertHistoryRecordCityModel:model];
     }
     if (self.delegate && [self.delegate respondsToSelector:@selector(viewController:didSelectCity:)]) {
