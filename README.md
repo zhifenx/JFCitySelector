@@ -7,7 +7,7 @@
 
 # 简介
 [JFCitySelector](https://github.com/zhifenx/JFCitySelector)
-是一个轻量、灵活、可自定义的三级城市选择器。
+是一个轻量、灵活、可自定义的三级城市选择器（City selector、City picker）。
 # 特点
 *  汉字、拼音搜索
 *  首字母索引
