@@ -137,7 +137,7 @@
                 return _historyRecordCell;
             } else {
                 JFCSBaseInfoModel *model = self.dataMutableArray[indexPath.section][indexPath.row];
-                cell.textLabel.text = model.name;
+                cell.textLabel.text = model.alias ? : model.name;
                 cell.textLabel.font = _config.tableViewCellTextLabelFont;
             }
             
@@ -214,7 +214,7 @@
         JFStrongSelf(self);
         [self configData:data];
     }];
-    [self.headerView updateCurrentCity:self.currentCityModel.name];
+    [self.headerView updateCurrentCity:self.currentCityModel.alias ? : self.currentCityModel.name];
 }
 
 - (void)configData:(NSMutableArray *)dataArr {
@@ -298,7 +298,7 @@
 - (void)selectCityCallBack:(JFCSBaseInfoModel *)model {
     self.currentCityModel = model;
     [self.dataOpreation cacheCurrentCity:model];
-    [self.headerView updateCurrentCity:model.name];
+    [self.headerView updateCurrentCity:model.alias ? : model.name];
     if (!_config.hiddenHistoricalRecord) {
         [self.dataOpreation insertHistoryRecordCityModel:model];
     }
@@ -358,7 +358,7 @@
                                              self.headerCitiesMutableArray = [dataArray mutableCopy];
                                              [self.headerCitiesNameMutableArray removeAllObjects];
                                              [dataArray enumerateObjectsUsingBlock:^(JFCSBaseInfoModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-                                                 [self.headerCitiesNameMutableArray addObject:obj.name];
+                                                 [self.headerCitiesNameMutableArray addObject:obj.alias ? : obj.name];
                                              }];
                                              
                                              [self.tableView beginUpdates];
