@@ -204,7 +204,7 @@
     self.currentCityModel =  [self.dataOpreation currentCity];
     self.historyRecordMutableArray = [[self.dataOpreation historyRecordCities] mutableCopy];
     [self.historyRecordMutableArray enumerateObjectsUsingBlock:^(JFCSBaseInfoModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        [self.historyRecordNameMutableArray addObject:obj.name];
+        [self.historyRecordNameMutableArray addObject:obj.alias ? : obj.name];
     }];
     [self.config.popularCitiesMutableArray enumerateObjectsUsingBlock:^(JFCSPopularCitiesModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         [self.popularCitiesNameMutableArray addObject:obj.name];
@@ -358,7 +358,7 @@
                                              self.headerCitiesMutableArray = [dataArray mutableCopy];
                                              [self.headerCitiesNameMutableArray removeAllObjects];
                                              [dataArray enumerateObjectsUsingBlock:^(JFCSBaseInfoModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-                                                 [self.headerCitiesNameMutableArray addObject:obj.alias ? : obj.name];
+                                                 [self.headerCitiesNameMutableArray addObject:obj.name];
                                              }];
                                              
                                              [self.tableView beginUpdates];
